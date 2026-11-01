@@ -1,4 +1,4 @@
-FROM mariadb:11@sha256:31c1aa20ba2d78c4cbc45b2675e40ffd6a3cd59897a9767ce88fc284309f55ab
+FROM mariadb:13@sha256:f4054da26e3a9dd6c8b5cc97363e544408b15c0fb369d7359c25dc04826eb6e1
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
